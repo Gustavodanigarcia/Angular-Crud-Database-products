@@ -1,0 +1,23 @@
+﻿<div class="card">
+    <div class="card-header">
+      {{pageTitle}}
+    </div>
+    <div class="card-body">
+      <div class="container-fluid">
+        <div class="text-center">
+          <img src="./assets/images/logo.png"
+               class="img-responsive center-block"
+               style="max-height:300px;padding-bottom:50px" />
+        </div>
+  
+      
+        <div class="col text-center">
+  <button class="btn btn-primary center-block"   [routerLink]="['/products', 0]"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact : true}"
+          style="vertical-align:middle"><span>VER MAS</span></button>
+    </div>
+
+      </div>
+    </div>
+  </div>
